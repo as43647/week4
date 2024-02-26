@@ -6,6 +6,11 @@ Mack a car counter using the [YOLO](https://docs.ultralytics.com/zh) algorithm.
 
 If you done, push your code to the new repository and send me the link.
 
+- Make a car counter in the video "car.mp4".
+- Create a new Github repository, and push your code. (or fork this repository).
+- Create a README.md file with the explanation of your method.
+- Deadline ``2024-03-03``
+
 ## Requirements
 
 Create a conda environment with the required packages in your local machine.
