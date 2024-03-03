@@ -6,10 +6,17 @@ Mack a car counter using the [YOLO](https://docs.ultralytics.com/zh) algorithm.
 
 If you done, push your code to the new repository and send me the link.
 
-- Make a car counter in the video "car.mp4".
-- Create a new Github repository, and push your code. (or fork this repository).
-- Create a README.md file with the explanation of your method.
-- Deadline ``2024-03-03``
+def checkDevice()
+- 檢查裝置cuda是否支援
+
+def checkVideo(videoPath)
+- 檢查檢測影片是否輸入成功
+
+def draw_boxes(img, className, pred, color=(255, 0, 255))
+- 在影片圖像上繪製檢測到的目標物體(car)的邊界框框並回傳框的座標及confidence陣列及框的圖像
+
+def main(videoPath, modelName)
+- 載入模型、影片及mask和COCO dataset，先將mask resize成frame的大小並和frame疊合，並繪製計數的線，如果物件(car)通過偵測線，計數器將會加一
 
 ## Requirements
 
